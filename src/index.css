@@ -34,7 +34,7 @@ h4,h2,h3{
   text-shadow: 3px 4px 6px #00000033;
 }
 img{
-  width: 40vw;
+  width: 90vw;
 }
 @media screen and (max-width:845px) {
 h1{
