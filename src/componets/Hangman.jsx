@@ -68,7 +68,7 @@ const Hangman = () => {
           </div>
         </div>
       </div>
-      <div className="text-center">
+      <div className="text-center my-5">
       <input type="text" value={userTypeValue} onChange={guessHandler} />
             <h2>{showAns ?
             <div> <samp className="ans">{word}   Won  .  <br />  Press Reset to play again 😎🎉🎉</samp> </div> : ""}
@@ -81,7 +81,7 @@ const Hangman = () => {
       </div>
       
       <hr />
-      <div className="text-center">
+      <div className="text-center ">
         <button
           className="btn btn-outline-warning "
           onClick={() => {
